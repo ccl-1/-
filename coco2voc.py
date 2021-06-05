@@ -119,6 +119,6 @@ def json2xml():
         f = open(xmlpath, "w")
         f.write(doc.toprettyxml(indent="  "))
         f.close()
-
-#createCate()
-#json2xml()
+# 调用
+createCate()
+json2xml()
